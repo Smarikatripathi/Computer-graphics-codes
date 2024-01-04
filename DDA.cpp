@@ -5,6 +5,9 @@
 int main()
 {
 	float x,y,x1,x2,y1,y2,dx,dy,step;
+		/*The two int variables gd, gm are graphic driver and graphic mode respectively. The gm handles value that tells us which resolution and monitor we are using.
+	 The gd specifies the graphic driver to be used. In our program we have gd=DETECT means we have passed the highest possible value available for the
+	  detected driver.*/
 	int i,gd=DETECT,gm;
 	initgraph(&gd,&gm,(char*)"");
 	printf("enter the value of x1 and y1:");
