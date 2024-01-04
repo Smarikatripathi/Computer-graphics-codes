@@ -27,7 +27,7 @@ int main()
 	i=1;
 	while(i<=step)
 	{
-		putpixel(x,y,WHITE);
+		putpixel(x,y,WHITE);  //putpixel() function which plots a pixel at location (x, y) of specified color.
 		x=x+dx;
 		y=y+dy;
 		i=i+1;
